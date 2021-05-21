@@ -1,3 +1,33 @@
+
+#animaciondetexto{
+
+    animation-duration: 2s;
+    animation-name: animaciondetexto;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes animaciondetexto {
+    from {
+        left: -100px;
+        top: 25px;
+        opacity: 0.0;
+    }
+    to {
+        left: 0px;
+        top: 25px;
+        opacity: 1;
+    }
+}
+
 body{background: yellow;}
 
-p{font-size: 50px;}
+p{font-size: 40px;
+    font-family: 'KoHo', sans-serif;
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'KoHo', sans-serif;
+}
