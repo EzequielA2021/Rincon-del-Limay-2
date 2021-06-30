@@ -1,0 +1,49 @@
+body {
+    background-image: url(../imagenes/manzana-verde.jpg);
+    z-index: 1;
+}
+
+.imgesquina {
+    display: grid;
+    grid-area: sidebar;
+}
+
+.botones_1_1 {
+    background-color: #1e381f;
+    padding: 10px;
+    column-gap: 18%;
+    display: flex;
+    justify-content: start;
+}
+
+.articulo_1 {
+    color: white;
+    width: 400px;
+    height: 500px;
+}
+
+.listas_1_jamones {
+    background-image: url(../imagenes/deliveryfiambres2.jpg);
+    width: 350px;
+    border: 9px solid #1e381f;
+}
+
+.listas_1_pizza {
+    background-image: url(../imagenes/descarga.jpg);
+    border: 9px solid #1e381f;
+}
+
+.listas_1_panchos {
+    background-image: url(../imagenes/super-pancho.jpg);
+    border: 9px solid #1e381f;
+}
+
+.listas_1_pascualina {
+    background-image: url(../imagenes/torta-pascualina-italiana-1.jpg);
+    border: 9px solid #1e381f;
+}
+
+.listas_1_empanadas {
+    background-image: url(../imagenes/4a618dd3-c7bc-4bf0-9005-a7a99608f29a-600.jpg);
+    border: 9px solid #1e381f;
+}
