@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagenes/manzana-verde.jpg);
+    background-color: #1e381f;
     z-index: 1;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .botones_1_1 {
-    background-color: #1e381f;
+    background-color: #8db600;
     padding: 10px;
     column-gap: 18%;
     display: flex;
@@ -24,26 +24,92 @@ body {
 
 .listas_1_jamones {
     background-image: url(../imagenes/deliveryfiambres2.jpg);
+    background-repeat: repeat-x;
+    object-fit: cover;
     width: 350px;
-    border: 9px solid #1e381f;
+    border: 5px solid #8db600;
 }
 
 .listas_1_pizza {
     background-image: url(../imagenes/descarga.jpg);
-    border: 9px solid #1e381f;
+    width: 350px;
+    border: 5px solid #8db600;
 }
 
 .listas_1_panchos {
     background-image: url(../imagenes/super-pancho.jpg);
-    border: 9px solid #1e381f;
+    width: 350px;
+    border: 5px solid #8db600;
 }
 
 .listas_1_pascualina {
     background-image: url(../imagenes/torta-pascualina-italiana-1.jpg);
-    border: 9px solid #1e381f;
+    width: 350px;
+    border: 5px solid #8db600;
 }
 
 .listas_1_empanadas {
     background-image: url(../imagenes/4a618dd3-c7bc-4bf0-9005-a7a99608f29a-600.jpg);
-    border: 9px solid #1e381f;
+    width: 350px;
+    border: 5px solid #8db600;
+}
+
+.miel {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 6px;
+    border: 3px solid #1e381f;
+    border-radius: 50%;
+}
+
+.miel_1 {
+    color: #1e381f;
+    text-decoration: none;
+}
+
+.huevos {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 6px;
+    border: 3px solid #1e381f;
+    border-radius: 50%;
+}
+
+.huevo_1 {
+    color: #1e381f;
+    text-decoration: none;
+}
+
+.pollos {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 6px;
+    border: 3px solid #1e381f;
+    border-radius: 50%;
+}
+
+.pollos_1 {
+    color: #1e381f;
+    text-decoration: none;
+}
+
+.almacen {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 6px;
+    border: 3px solid #1e381f;
+    border-radius: 50%;
+}
+
+.almacen_1 {
+    color: #1e381f;
+    text-decoration: none;
 }
