@@ -1,11 +1,14 @@
-body {
+.cuerpo {
     background-color: #1e381f;
     z-index: 1;
+    font-family: Century Gothic;
 }
 
-.imgesquina {
-    display: grid;
-    grid-area: sidebar;
+.imgen {
+    position: relative;
+    bottom: 1800px;
+    left: 85%;
+    height: 4000px;
 }
 
 .botones_1_1 {
@@ -16,15 +19,30 @@ body {
     justify-content: start;
 }
 
-.articulo_1 {
+#articulo_1 {
     color: white;
-    width: 400px;
+    width: 560px;
     height: 500px;
+}
+
+.articulo_1_1 {
+    font-size: 150%;
+}
+
+#texto {
+    color: white;
+    text-shadow: 2px 0.5px #1e381f;
 }
 
 .listas_1_jamones {
     background-image: url(../imagenes/deliveryfiambres2.jpg);
-    background-repeat: repeat-x;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+}
+
+.listas_1_jamones_1 {
     object-fit: cover;
     width: 350px;
     border: 5px solid #8db600;
@@ -32,25 +50,44 @@ body {
 
 .listas_1_pizza {
     background-image: url(../imagenes/descarga.jpg);
+    position: relative;
+    left: 345px;
+    bottom: 318px;
     width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 5px solid #8db600;
 }
 
 .listas_1_panchos {
     background-image: url(../imagenes/super-pancho.jpg);
+    position: relative;
+    bottom: 205px;
     width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    ;
     border: 5px solid #8db600;
 }
 
 .listas_1_pascualina {
     background-image: url(../imagenes/torta-pascualina-italiana-1.jpg);
+    position: relative;
+    left: 345px;
+    bottom: 492px;
     width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 5px solid #8db600;
 }
 
 .listas_1_empanadas {
     background-image: url(../imagenes/4a618dd3-c7bc-4bf0-9005-a7a99608f29a-600.jpg);
+    position: relative;
+    bottom: 410px;
     width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 5px solid #8db600;
 }
 
