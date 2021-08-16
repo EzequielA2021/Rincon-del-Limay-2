@@ -302,6 +302,28 @@ p{font-size: 40px;
     font-family: Century Gothic;
     position: relative;
     color: white;
+    left: 0;
+}
+#texto{
+
+   animation-duration: 2s;
+   animation-name: animacionTexto;
+   animation-iteration-count: 1;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+
+}
+@keyframes animacionTexto {
+    from {
+        left: -100px;
+        top: 25px;
+        opacity: 0.0;
+    }
+    to {
+        left: 0px;
+        top: 25px;
+        opacity: 1;
+    }
 }
 #tituloMiel{
 
