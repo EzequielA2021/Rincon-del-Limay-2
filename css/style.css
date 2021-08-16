@@ -239,3 +239,279 @@ p{font-size: 40px;
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{background-color: #1e381f;}
+
+p{font-size: 40px;
+    font-family: Century Gothic;
+    position: relative;
+    color: white;
+}
+#tituloMiel{
+
+    font-size: 25px;
+    font-family: Century Gothic;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    color: white;
+    
+}
+
+@keyframes titulo {
+    from{
+        opacity: 0.0;
+        left: -100px;
+        top: 25px;
+    }
+    to{
+        opacity: 1;
+        top: 25px;
+        left: 0px;
+
+    }
+}
+
+
+.botones_2_2{
+
+    background-color: #8db600;
+    padding: 10px;
+    column-gap: 18%;
+    display: flex;
+    justify-content: center;
+}
+
+.principal_2{
+    font-family: Century Gothic;
+    font-size: 20px;
+    position: relative;
+    animation-name: principal;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay: 1ms;
+    left: 0.5cm;
+    top: 12px;
+}
+.principal{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 300px;
+    top: 0px;
+    left: 0.5cm;
+    animation-name: burbuja;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay: 1ms;
+    position: relative;
+
+}
+@keyframes burbuja {
+    from{
+        left: -10cm;
+        top: 0px;
+    }
+    to{
+        left: 0.5cm;
+        top: 0px;
+    }
+}
+
+@keyframes principal {
+    from{
+        opacity: 0.0;
+        left: -10cm;
+        top: 10px;
+    }
+    to{
+        opacity: 1;
+        left: 0.5cm;
+        top: 12px;
+    }
+}
+
+.huevos{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 300px;
+    animation-name: burbujaHuevos;
+    animation-duration: 3.2s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 5ms;
+    left: 0.8cm;
+    top: 0px;
+}
+
+@keyframes burbujaHuevos {
+    from{
+
+        opacity: 0.0;
+        left: -30cm;
+        top: 0px;
+    }
+    to{
+        
+        opacity: 1;
+        left: 0.8cm;
+        top: 0px;
+    }
+}
+
+
+.huevos_2 {
+
+
+    font-family: Century Gothic;
+    font-size: 20px;
+    animation-name: textohuevos;
+    animation-duration: 3.2s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-delay: 5ms;
+    left: 0.4cm;
+    top: 10px;
+}
+
+@keyframes textohuevos {
+    from{
+        left: -10cm;
+        top: 12px;
+        opacity: 0.0;
+    }
+    to{
+        left: 0.4cm;
+        top: 10px;
+        opacity: 1;
+    }
+}
+
+
+.almacen_2{
+    font-family: Century Gothic;
+    font-size: 20px;
+    animation-name: textoAlmacen;
+    animation-duration: 2s;
+    position: relative;
+    animation-timing-function: inherit;
+    right: -50px;
+    top: 10px;
+
+}
+@keyframes textoAlmacen {
+    from{
+        right: -1300px;
+        top: 0px;
+        opacity: 0.0;
+    }
+    to{
+        right: -50px;
+        top: 10px;
+        opacity: 1;
+    }
+}
+
+.almacen{
+
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 300px;
+    top: 0px;
+    right: 0.5cm;
+    animation-name: burbujaAlmacen;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    position: relative;
+}
+@keyframes burbujaAlmacen {
+    from{
+        right: -30cm;
+        top: 10px;
+        opacity: 0.0;
+    }
+    to{
+        right: 0.8cm;
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+.pollos{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 300px;
+    animation-name: burbujaPollo;
+    animation-duration: 3.2s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 5ms;
+    right: 0.8cm;
+    top: 0px;
+}
+
+@keyframes burbujaPollo {
+    from{
+
+        opacity: 0.0;
+        right: -30cm;
+        top: 0px;
+    }
+    to{
+        
+        opacity: 1;
+        right: 0.8cm;
+        top: 0px;
+    }
+}
+
+
+.pollos_2 {
+
+
+    font-family: Century Gothic;
+    font-size: 20px;
+    animation-name: textopollo;
+    animation-duration: 3.2s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-delay: 5ms;
+    right: -0.6cm;
+    top: 10px;
+}
+
+@keyframes textopollo {
+    from{
+        right: -10cm;
+        top: 12px;
+        opacity: 0.0;
+    }
+    to{
+        right: -0.6cm;
+        top: 10px;
+        opacity: 1;
+    }
+}
+
