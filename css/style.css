@@ -2,13 +2,63 @@
     background-color: #1e381f;
     z-index: 1;
     font-family: Century Gothic;
+    margin: 0%;
 }
 
-.imgen {
-    position: relative;
-    bottom: 1800px;
-    left: 85%;
-    height: 4000px;
+.logo {
+    letter-spacing: 5px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.hamburger {
+    display: none;
+    color: #ffffff;
+}
+
+.cabezal {
+    background: #8db600;
+    color: #1e381f;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.cabezal a {
+    text-decoration: none;
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 80%;
+    color: #ffffff;
+}
+
+.navigation ul li a:hover {
+    background-color: #ffffff;
+    color: #1e381f;
 }
 
 .botones_1_1 {
@@ -19,10 +69,48 @@
     justify-content: start;
 }
 
+@media only screen and (max-width: 767px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 80%;
+        color: #ffffff;
+    }
+    .navigation ul li a:hover {
+        background-color: #ffffff;
+        color: #1e381f;
+    }
+}
+
 #articulo_1 {
     color: white;
-    width: 560px;
+    padding-top: 2.72rem;
+    width: 85%;
+    max-width: 530px;
     height: 500px;
+}
+
+.main {
+    padding-top: 5rem;
 }
 
 .articulo_1_1 {
@@ -30,6 +118,7 @@
 }
 
 #texto {
+    text-align: center;
     color: white;
     text-shadow: 2px 0.5px #1e381f;
 }
@@ -149,4 +238,9 @@
 .almacen_1 {
     color: #1e381f;
     text-decoration: none;
+}
+
+.pie {
+    background: #8cb600d4;
+    padding: 4rem 0;
 }

@@ -1,7 +1,12 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const elemntoscarousel = document.querySelectorAll('.carousel');
-    M.carousel.init(elemntoscarousel), {
-        duration: 150
-    };
+jQuery('document').ready(function($) {
+    var menuBtn = $('.hamburger'),
+        menu = $('.navigation ul');
+    menuBtn.click(function() {
+        if (menu.hasClass('show')) {
+            menu.removeClass('show');
+        } else {
+            menu.addClass('show')
+        }
 
+    });
 });
