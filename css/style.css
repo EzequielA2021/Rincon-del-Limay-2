@@ -260,8 +260,8 @@ p{font-size: 40px;
     }
     to{
         opacity: 1;
-        top: 25px;
-        left: 0px;
+        top: 0px;
+        left: 10px;
 
     }
 }
