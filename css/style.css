@@ -92,6 +92,31 @@ footer{
     margin-top: 20px;
 }
 
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
 
 
 
