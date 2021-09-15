@@ -1,19 +1,27 @@
 body{
 
     font-family: Century Gothic;
-
+    background-color: #1e381f;
 }
-#animaciondetexto{
 
-    animation-duration: 2s;
-    animation-name: animaciondetexto;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+
+
+p{font-size: 40px;
+    font-family: Century Gothic;
+    position: relative;
     color: white;
-    
+    left: 0;
 }
-@keyframes animaciondetexto {
+#texto{
+
+   animation-duration: 2s;
+   animation-name: animacionTexto;
+   animation-iteration-count: 1;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+
+}
+@keyframes animacionTexto {
     from {
         left: -100px;
         top: 25px;
@@ -26,13 +34,12 @@ body{
     }
 }
 
-
-p{font-size: 40px;
-    font-family: Century Gothic;
-    position: relative;
-}
 #titulo{
 
+    color: white;
+
+}
+#tituloMiel{
 
     font-size: 25px;
     font-family: Century Gothic;
@@ -57,7 +64,6 @@ p{font-size: 40px;
 
     }
 }
-
 
 
 
