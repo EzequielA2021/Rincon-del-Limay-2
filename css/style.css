@@ -78,6 +78,24 @@ footer{
     justify-content: space-between;
 }
 
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h2{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 
 
