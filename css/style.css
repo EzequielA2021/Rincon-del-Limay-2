@@ -22,7 +22,6 @@
     }
 }
 
-body{background-color: #1e381f;}
 
 p{font-size: 40px;
     font-family: Century Gothic;
@@ -395,6 +394,8 @@ p{font-size: 40px;
     animation-timing-function: inherit;
     right: -50px;
     top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 @keyframes textoAlmacen {
@@ -423,6 +424,8 @@ p{font-size: 40px;
     animation-iteration-count: 1;
     animation-timing-function: inherit;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 @keyframes burbujaAlmacen {
     from{
@@ -509,6 +512,7 @@ p{font-size: 40px;
 
 
 body{background-color: #1e381f;}
+
 
 p{font-size: 40px;
     font-family: Century Gothic;
@@ -692,6 +696,7 @@ p{font-size: 40px;
     animation-timing-function: inherit;
     right: -50px;
     top: 10px;
+   
 
 }
 @keyframes textoAlmacen {
@@ -792,4 +797,8 @@ p{font-size: 40px;
     }
 }
 
+.contenedor{
 
+    display: flex;
+    flex-wrap: wrap;
+}
