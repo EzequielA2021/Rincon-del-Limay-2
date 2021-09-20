@@ -168,6 +168,10 @@ p{font-size: 40px;
         background-color: #ffffff;
         color: #1e381f;
     }
+    .navigation a {
+
+        text-align: center;
+    }
 }
 
 
