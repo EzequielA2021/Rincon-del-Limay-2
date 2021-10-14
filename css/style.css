@@ -4,7 +4,16 @@ body{
     background-color: #1e381f;
 }
 
+.item-1{
 
+    position: relative;
+}
+.contenedor2{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
+}
 
 p{font-size: 40px;
     font-family: Century Gothic;
