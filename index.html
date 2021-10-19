@@ -7,148 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minum-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
     <title>Rincon del limay</title>
 
 </head>
 
 
 <body class="cuerpo">
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/js.js"></script>
     <!--inicio menu html-->>
-    <header class="cabezal">
-        <div class="contenedor logo_nav">
-            <a href="#" class="logo">RINCON DEL LIMAY</a>
-            <span class="hamburger">ver mas</span>
-            <nav class="navigation">
-                <ul>
-                    <li>
-                        <a href="miel.html">Miel</a>
-                    </li>
-                    <li>
-                        <a href="huevos.html">Huevos</a>
-                    </li>
-                    <li>
-                        <a href="pollos.html">Pollos</a>
-                    </li>
-                    <li>
-                        <a href="almacen.html">Art.Almacen</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- fin menu html-->
-    <div>
+
+    <div class="responsive_grid">
+        <header class="cabezal">
+            <div class="contenedor logo_nav">
+                <a href="#" class="logo">RINCON DEL LIMAY</a>
+                <span class="hamburger">ver mas</span>
+                <nav class="navigation">
+                    <ul>
+                        <li>
+                            <a href="miel.html">Miel</a>
+                        </li>
+                        <li>
+                            <a href="huevos.html">Huevos</a>
+                        </li>
+                        <li>
+                            <a href="pollos.html">Pollos</a>
+                        </li>
+                        <li>
+                            <a href="almacen.html">Art.Almacen</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <div id="articulo_1">
             <main class="main">
                 <header>
-                    <h2 class="display-5">A que nos dedicamos?</h2>
+                    <h1 class="display-5">A que nos dedicamos?</h1>
                 </header>
                 <article>
                     <p class="articulo_1_1" class="lead">En nuestro "Almacen de Campo" estamos dedicados a ofrecerles productos de elaboracion propia y frutos de nuestra tierra. Ademas tenemos una amplia variedad de articulos de <b>almacen</b>, fiambre, lacteo, vevidas con alcoholl, vevidas
                         sin alcohol y todo lo que necesitas a orillas del rio</p>
                 </article>
-                <footer> </footer>
+
             </main>
         </div>
-    </div>
-    <h2 id="texto">Ofertas</h2>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="imagenes/deliveryfiambres2.jpg" class="d-block w-100" alt="jamones">
-            </div>
-            <div class="carousel-item">
-                <img src="imagenes/descarga.jpg" class="d-block w-100" alt="pizza">
-            </div>
-            <div class="carousel-item">
-                <img src="imagenes/torta-pascualina-italiana-1.jpg" class="d-block w-100" alt="pascualina">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!--antes-->
-    <div>
-        <!--listas de promociones 
-        <div class="listas_1_jamones">
-            <div class="listas_1_jamones_1">
-                <header id="texto">
-                <h4>Promo fiambre surtido x 800 grs</h4>
-                </header>
-                <ul id="texto">
-                    <li>100 grs. Queso</li>
-                    <li>100 grs. Queso de Cerdo</li>
-                    <li>100 grs.morcilla</li>
-                    <li>100 grs.paleta sandwichera</li>
-                    <li>100 grs.mortadela</li>
-                    <li>100 grs.salame milan</li>
-                    <li>100 grs.salchichon con jamon</li>
-                    <li>100 grs.salchichon primavera</li>
-                </ul>
-                <h4 id="texto">$520</h4>
+        <h2 id="texto">Ofertas</h2>
+        <div class="contenedor_slider">
+            <div class="slider" id="Slider">
+                <div class="slider_seccion">
+                    <img src="" alt="" class="imagen_slider">
+                </div>
+                <div class="slider_seccion">
+                    <img src="" alt="" class="imagen_slider">
+                </div>
+                <div class="slider_seccion">
+                    <img src="" alt="" class="imagen_slider">
+                </div>
+                <div class="slider_seccion">
+                    <img src="" alt="" class="imagen_slider">
+                </div>
+                <div class="slider_seccion">
+                    <img src="" alt="" class="imagen_slider">
+                </div>
+                <div class="slider_btn slider_btn_izq" id="boton-izq">&#60;</div>
+                <div class="slider_btn slider_btn_der" id="boton-der">&#62;</div>
             </div>
         </div>
-        <div class="listas_1_pizza">
-            <div class="listas_1_pizza_1">
-                <header id="texto">
-                    <h4> Oferta pizza</h4>
-                </header>
-                <ul id="texto">
-                    <li>1 Pre pizza</li>
-                    <li>200 grs. Queso</li>
-                    <li>100 grs. Paleta</li>
-                    <li>80 grs. Aceituna</li>
-                </ul>
-                <h4 id="texto">$290</h4>
-            </div>
-        </div>
-        <div class="listas_1_panchos">
-            <header class="listas_1_panchos_1">
-                <h4 id="texto">Oferta panchos</h4>
-            </header>
-            <ul id="texto">
-                <li>1 Pack de Salchicha x 6</li>
-                <li>1 Pan para Panchos</li>
-                <li>1 Sobre de Mayonesa</li>
-            </ul>
-            <h4 id="texto">$250</h5>
-        </div>
-        <div class="listas_1_pascualina">
-            <header class="listas_1_pascualina_1">
-                <h4 id="texto">Oferta pascualina</h4>
-            </header>
-            <ul id="texto">
-                <li>1 Pascualina</li>
-                <li>150 grs. Queso cuartirolo</li>
-                <li>100 grs. Paleta</li>
-                <li>4 Huevos</li>
-            </ul>
-            <h4 id="texto">$400</h4>
-        </div>
-        <div class="listas_1_empanadas">
-            <header class="listas_1_empanadas_1">
-                <h4 id="texto">Oferta Empanadas</h4>
-            </header>
-            <ul id="texto">
-                <li>1 Doc. Tapas de Empanadas</li>
-                <li>200 grs. Paleta</li>
-                <li>200 grs. Queso</li>
-            </ul>
-            <h4 id="texto">$350</h4>
-        </div>
-    </div>-->
-
-
-        <footer>
+        <footer class="pie">
 
             <div class="container-footer-all">
 
@@ -218,6 +147,85 @@
                 </div>
 
         </footer>
+        </div>
+
+        <!-- fin menu html-->
+
+
+        <script src="slider.js"></script>
+        <!--antes
+    <div>
+        listas de promociones 
+        <div class="listas_1_jamones">
+            <div class="listas_1_jamones_1">
+                <header id="texto">
+                <h4>Promo fiambre surtido x 800 grs</h4>
+                </header>
+                <ul id="texto">
+                    <li>100 grs. Queso</li>
+                    <li>100 grs. Queso de Cerdo</li>
+                    <li>100 grs.morcilla</li>
+                    <li>100 grs.paleta sandwichera</li>
+                    <li>100 grs.mortadela</li>
+                    <li>100 grs.salame milan</li>
+                    <li>100 grs.salchichon con jamon</li>
+                    <li>100 grs.salchichon primavera</li>
+                </ul>
+                <h4 id="texto">$520</h4>
+            </div>
+        </div>
+        <div class="listas_1_pizza">
+            <div class="listas_1_pizza_1">
+                <header id="texto">
+                    <h4> Oferta pizza</h4>
+                </header>
+                <ul id="texto">
+                    <li>1 Pre pizza</li>
+                    <li>200 grs. Queso</li>
+                    <li>100 grs. Paleta</li>
+                    <li>80 grs. Aceituna</li>
+                </ul>
+                <h4 id="texto">$290</h4>
+            </div>
+        </div>
+        <div class="listas_1_panchos">
+            <header class="listas_1_panchos_1">
+                <h4 id="texto">Oferta panchos</h4>
+            </header>
+            <ul id="texto">
+                <li>1 Pack de Salchicha x 6</li>
+                <li>1 Pan para Panchos</li>
+                <li>1 Sobre de Mayonesa</li>
+            </ul>
+            <h4 id="texto">$250</h5>
+        </div>
+        <div class="listas_1_pascualina">
+            <header class="listas_1_pascualina_1">
+                <h4 id="texto">Oferta pascualina</h4>
+            </header>
+            <ul id="texto">
+                <li>1 Pascualina</li>
+                <li>150 grs. Queso cuartirolo</li>
+                <li>100 grs. Paleta</li>
+                <li>4 Huevos</li>
+            </ul>
+            <h4 id="texto">$400</h4>
+        </div>
+        <div class="listas_1_empanadas">
+            <header class="listas_1_empanadas_1">
+                <h4 id="texto">Oferta Empanadas</h4>
+            </header>
+            <ul id="texto">
+                <li>1 Doc. Tapas de Empanadas</li>
+                <li>200 grs. Paleta</li>
+                <li>200 grs. Queso</li>
+            </ul>
+            <h4 id="texto">$350</h4>
+        </div>
+    </div>-->
+
+
+
 </body>
 
 </html>

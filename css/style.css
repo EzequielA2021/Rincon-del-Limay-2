@@ -6,9 +6,49 @@
 }
 
 
+/*inicio grid*/
+
+.responsive_grid {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.responsive_grid #articulo_1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: span 3;
+}
+
+.responsive_grid #texto,
+.responsive_grid .contenedor_slider {
+    grid-column: 1 / 4;
+}
+
+.responsive_grid .cabezal {
+    grid-column: 1 / 2;
+}
+
+.pie {
+    margin-top: 5rem;
+}
+
+.responsive_grid .pie {
+    grid-column: 2 / 3;
+    grid-column: span 5;
+}
+
+
+/*fin grid*/
+
+
 /*comienzo menu*/
 
 .logo {
+    margin-left: 2rem;
     letter-spacing: 5px;
     font-size: 1.3em;
     color: #ffffff;
@@ -39,6 +79,10 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.navigation {
+    margin-right: 2rem;
 }
 
 .navigation ul {
@@ -74,9 +118,17 @@
 
 @media only screen and (max-width: 767px) {
     .hamburger {
+        margin-right: 5rem;
         display: block;
         cursor: pointer;
         padding: 0.5rem 1;
+    }
+    .responsive_grid .pie {
+        grid-column: 2 / 3;
+        grid-column: span 0;
+    }
+    .logo {
+        margin-right: 4;
     }
     .navigation {
         width: 100%;
@@ -98,9 +150,8 @@
         border-radius: 80%;
         color: #ffffff;
     }
-    .navigation ul li a:hover {
-        background-color: #ffffff;
-        color: #1e381f;
+    .navigation a {
+        text-align: center;
     }
 }
 
@@ -109,6 +160,7 @@
 
 #articulo_1 {
     color: white;
+    display: block;
     padding-top: 2.72rem;
     width: 85%;
     max-width: 530px;
@@ -354,6 +406,65 @@ footer {
     text-decoration: none;
     color: #C7C7C7;
 }
+
+
+/*inicio slider*/
+
+.contenedor_slider {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #8db600, 0 15px 50px;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    height: 400%;
+    margin-left: -100%;
+}
+
+.slider_seccion {
+    width: 100%;
+}
+
+.imagen_slider {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider_btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0, 7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider_btn:hover {
+    background: #ffffff;
+}
+
+.slider_btn_izq {
+    left: 10px;
+}
+
+.slider_btn_der {
+    right: 10px;
+}
+
+
+/*fin slider*/
 
 
 /*FOOTER RESPONSIVO*/
