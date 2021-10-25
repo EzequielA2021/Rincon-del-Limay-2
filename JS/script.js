@@ -1,12 +1,12 @@
-jQuery('document').ready(function($)){
-    var menuBtn = $('.hambuger'),
-        menu = $('.navegation ul');
-    menuBtn.click(function(){
-        if (menu.hasClass('show')){
+jQuery('document').ready(function($) {
+    var menuBtn = $('.hamburger'),
+        menu = $('.navigation ul');
+    menuBtn.click(function() {
+        if (menu.hasClass('show')) {
             menu.removeClass('show');
-        }else{
+        } else {
             menu.addClass('show')
         }
-    }    
-}
 
+    });
+});
