@@ -150,7 +150,7 @@ p{  font-size: 25px;
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
     .hamburger {
         display: block;
         cursor: pointer;
