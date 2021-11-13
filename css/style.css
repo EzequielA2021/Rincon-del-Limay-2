@@ -150,50 +150,8 @@ p{  font-size: 25px;
     }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1200px){
-    .hamburger {
-        display: block;
-        cursor: pointer;
-        padding: 0.5rem;
-        margin-right: 0px;
-    }
-    .logo{
-        margin-left: 0px;
-        font-size: 3.5vw;
-    }
-    .navigation {
-        width: 100%;
-        margin-top: 1rem;
-    }
-    .navigation ul {
-        display: none;
-    }
-    .navigation ul.show {
-        display: block;
-    }
-    .navigation ul li {
-        display: block;
-    }
-    .navigation ul li a {
-        display: block;
-        padding: 0.5rem 0;
-        transition: all 0.4s linear;
-        border-radius: 80%;
-        color: #ffffff;
-    }
-    .navigation ul li a:hover {
-        background-color: #ffffff;
-        color: #1e381f;
-    }
-    .navigation a {
 
-        text-align: center;
-    }
-    .cabezal{
 
-        padding-bottom: 10px;
-    }
-}
 
 
 
