@@ -23,11 +23,6 @@
     grid-column: span 3;
 }
 
-.responsive_grid #texto,
-.responsive_grid .contenedor_slider {
-    grid-column: 1 / 4;
-}
-
 .responsive_grid .cabezal {
     grid-column: 1 / 2;
 }
