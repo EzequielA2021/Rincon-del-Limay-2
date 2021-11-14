@@ -39,7 +39,10 @@ p{  font-size: 25px;
 
 }
 
+p.centrado{
 
+    text-align: center;
+}
 
 .logo {
     letter-spacing: 5px;
