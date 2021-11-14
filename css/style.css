@@ -154,7 +154,7 @@ p{  font-size: 25px;
 
 footer{
     width: 100%;
-    background: #202020;
+    background-color: #202020;
     color: white;    
 }
 
@@ -235,7 +235,7 @@ footer{
 
 .container-footer{
     width: 100%;  
-    background: #101010;
+    background-color: #101010;
 }
 .footer{
     width: 100%;
