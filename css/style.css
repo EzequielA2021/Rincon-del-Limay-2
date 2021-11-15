@@ -27,10 +27,6 @@
     grid-column: 1 / 2;
 }
 
-.pie {
-    margin-top: 5rem;
-}
-
 .responsive_grid .pie {
     grid-column: 2 / 3;
     grid-column: span 5;
@@ -237,10 +233,17 @@
     text-decoration: none;
 }
 
+
+/*FOOTER*/
+
 footer {
     width: 100%;
     background: #202020;
     color: white;
+}
+
+.pie {
+    margin-top: -15%;
 }
 
 .container-footer-all {
@@ -288,8 +291,8 @@ footer {
 }
 
 .row label {
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: -35px;
+    margin-left: 50px;
     color: #C7C7C7;
 }
 
